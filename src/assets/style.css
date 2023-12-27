@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,regular,500,600);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: #e4e4e4;
+}
+
+.container {
+  width: 80%;
+  max-width: 992px;
+  margin: 0 auto;
+  background: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px #d6d6d6;
+}
+
+header.header .brand {
+  display: flex;
+  align-items: center;
+}
+header.header .brand img {
+  width: 100%;
+  max-width: 50px;
+}
+header.header .brand h4 {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+main section.addtask {
+  width: 100%;
+}
+main section.addtask .inputgroup {
+  display: flex;
+  justify-content: space-between;
+}
+main section.addtask .inputgroup #addTask {
+  padding: 10px;
+  width: 78%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+main section.addtask .inputgroup #addTask:focus {
+  outline: 0;
+}
+main section.addtask .inputgroup #submit {
+  width: calc(18% - 10px);
+  padding: 12px;
+  background: lightgreen;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+main section.todo .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section.todo .top .left {
+  font-size: 20px;
+  font-weight: 600;
+}
+main section.todo .top .right button {
+  background: tomato;
+  padding: 5px 30px;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  border-radius: 5px;
+}
+main section.todo .middle hr {
+  margin: 20px 0;
+}
+main section.todo .bottom .tasks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+main section.todo .bottom .tasks .task {
+  border: 1px solid #e4e4e4;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 7px solid blueviolet;
+}
+
+footer .container {
+  margin-bottom: 10px;
+}
+footer .container p {
+  text-align: center;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  main section.todo .bottom .tasks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 768px) {
+  main section.todo .bottom .tasks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 476px) {
+  main section.todo .bottom .tasks {
+    grid-template-columns: 1fr;
+  }
+} /*# sourceMappingURL=style.css.map */
