@@ -70,6 +70,8 @@ main section.todo .top {
 main section.todo .top .left {
   font-size: 20px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 main section.todo .top .right button {
   background: tomato;
@@ -102,6 +104,9 @@ main section.todo .bottom .tasks .taskname {
   font-size: 20px;
   margin-bottom: 5px;
 }
+main section.todo .bottom .tasks .task .left {
+  width: 70%;
+}
 main section.todo .bottom .tasks .task .right .icon {
   margin-left: 10px;
   width: 20px;
@@ -129,3 +134,16 @@ footer .container p {
     grid-template-columns: 1fr;
   }
 } /*# sourceMappingURL=style.css.map */
+
+.taskCount {
+  background: blueviolet;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 10px;
+}
