@@ -4,10 +4,10 @@ import TodoBottom from './TodoBottom';
 
 export default function Todo() {
   return (
-    <section class="todo">
-      <div class="container">
+    <section className="todo">
+      <div className="container">
         <TodoTop />
-        <div class="middle">
+        <div className="middle">
           <hr />
         </div>
         <TodoBottom />

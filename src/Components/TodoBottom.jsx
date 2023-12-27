@@ -3,7 +3,7 @@ import Tasks from './Tasks';
 
 export default function TodoBottom() {
   return (
-    <div class="bottom">
+    <div className="bottom">
       <Tasks />
     </div>
   );

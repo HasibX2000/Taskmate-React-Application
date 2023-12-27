@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function AddTask() {
   return (
-    <section class="addtask">
-      <div class="container">
+    <section className="addtask">
+      <div className="container">
         <form>
-          <div class="inputgroup">
+          <div className="inputgroup">
             <input
               type="text"
               name="addTask"
