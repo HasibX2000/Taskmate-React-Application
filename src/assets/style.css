@@ -108,9 +108,11 @@ main section.todo .bottom .tasks .task .left {
   width: 70%;
 }
 main section.todo .bottom .tasks .task .right .icon {
+  cursor: pointer;
   margin-left: 10px;
   width: 20px;
 }
+
 footer .container {
   margin-bottom: 10px;
 }
